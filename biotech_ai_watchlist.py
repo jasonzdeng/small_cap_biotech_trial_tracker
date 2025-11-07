@@ -492,28 +492,30 @@ def generate_executive_summary(
     if not entries:
         return None
 
-    lines: List[str] = []
-    for trial, _research, impact_comment, confirmed_window in entries:
-        if confirmed_window:
-            window_text = confirmed_window
-        else:
-            window_text = f"Unconfirmed (best estimate {trial.date.strftime('%Y-%m-%d')})"
-        descriptor = trial.title
-        impact_note = ""
-        if impact_comment and "impact commentary deferred" not in impact_comment.lower():
-            impact_note = impact_comment
-        if impact_note:
-            summary_line = (
-                f"- {trial.company.name} ({trial.company.ticker}): Window: {window_text} – {descriptor}; "
-                f"Impact: {impact_note}"
-            )
-        else:
-            summary_line = (
-                f"- {trial.company.name} ({trial.company.ticker}): Window: {window_text} – {descriptor}"
-            )
-        lines.append(summary_line)
+    header = (
+        "| Name | Ticker | Trial Completion Date | Announcement Date | Trial Type | Trial Name | Therapeutic Area |"
+    )
+    separator = "| --- | --- | --- | --- | --- | --- | --- |"
+    rows: List[str] = [header, separator]
 
-    return "\n".join(lines)
+    for trial, _research, _impact_comment, confirmed_window in entries:
+        completion_date = trial.date.strftime("%Y-%m-%d")
+        announcement_date = confirmed_window or "Unconfirmed"
+        trial_type = trial.phase or "N/A"
+        trial_name = trial.title or "N/A"
+        therapeutic_area = trial.condition or "N/A"
+
+        def sanitize(value: str) -> str:
+            return value.replace("|", "/") if value else "N/A"
+
+        row = (
+            f"| {sanitize(trial.company.name)} | {sanitize(trial.company.ticker)} | {completion_date} | "
+            f"{sanitize(announcement_date)} | {sanitize(trial_type)} | {sanitize(trial_name)} | "
+            f"{sanitize(therapeutic_area)} |"
+        )
+        rows.append(row)
+
+    return "\n".join(rows)
 
 
 def build_markdown(
@@ -929,21 +931,9 @@ def main() -> None:
 
     executive_summary = generate_executive_summary(enriched)
     report = build_markdown(enriched, executive_summary)
-    print("OpenAI refinement: harmonizing report narrative...")
-    trials_only = [trial for trial, _, _, _ in enriched]
-    refined_report = refine_report(report, openai_key, trials_only, perplexity_key)
-    if refined_report != report:
-        if validate_report_sections(refined_report, enriched):
-            report = enforce_opportunity_count(refined_report, len(enriched))
-        else:
-            print("Refinement removed or renamed sections; reverting to original draft.")
-            report = enforce_opportunity_count(report, len(enriched))
-    else:
-        report = enforce_opportunity_count(report, len(enriched))
-    print("OpenAI review: quality-checking final draft...")
-    review = run_report_review(report, openai_key)
-    if review:
-        report += "\n\n## AI Quality Review\n\n" + review
+    print("Skipping OpenAI refinement step (disabled).")
+    report = enforce_opportunity_count(report, len(enriched))
+    print("Skipping OpenAI review step (disabled).")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now(UTC).strftime("%Y%m%d_%H%M%S")
     report_path = OUTPUT_DIR / f"biotech_readout_report_{timestamp}.md"
