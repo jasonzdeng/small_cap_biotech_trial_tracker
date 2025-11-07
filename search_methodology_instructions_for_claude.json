@@ -1,0 +1,69 @@
+{
+  "search_methodology": {
+    "objective": "Identify small cap publicly traded biotech companies with Phase 2/3 pivotal trial readouts",
+    "time_period": "November 2025 - December 2026",
+    "criteria": {
+      "market_cap": "Under $2B",
+      "trial_phase": "Phase 2/3 pivotal trials only",
+      "therapeutic_areas": "All (oncology, rare diseases, CNS, cardiovascular, metabolic, immunology, ophthalmology, infectious disease, dermatology, respiratory)",
+      "listing": "US stock exchanges only"
+    },
+    "search_strategy": {
+      "step_1": {
+        "action": "Search clinical trial catalyst calendars",
+        "sources": [
+          "BioPharma Catalyst databases",
+          "ClinicalTrials.gov",
+          "Biotech investor catalyst calendars"
+        ],
+        "queries": [
+          "biotech phase 3 trials 2025 2026",
+          "phase 2 pivotal trials readout calendar",
+          "small cap biotech clinical catalysts 2025 2026"
+        ]
+      },
+      "step_2": {
+        "action": "Search by therapeutic area",
+        "queries_per_area": [
+          "[therapeutic area] phase 3 trials 2025 readout",
+          "[therapeutic area] biotech clinical data 2026",
+          "small cap [therapeutic area] companies clinical trials"
+        ]
+      },
+      "step_3": {
+        "action": "Verify company details",
+        "checks": [
+          "Market cap confirmation (<$2B)",
+          "US ticker verification",
+          "Trial phase confirmation (Phase 2/3 pivotal)",
+          "Readout timing validation"
+        ],
+        "sources": [
+          "Company investor presentations",
+          "SEC filings (10-K, 10-Q)",
+          "Press releases",
+          "ClinicalTrials.gov trial records"
+        ]
+      },
+      "step_4": {
+        "action": "Cross-reference and deduplicate",
+        "process": "Compare findings with existing list, remove duplicates, validate all entries"
+      }
+    },
+    "refinement_search": {
+      "objective": "Identify readouts in next 3 months",
+      "method": "Search each company individually",
+      "queries": [
+        "[company name] clinical trial readout date 2025",
+        "[company name] phase 3 data timing",
+        "[company name] investor presentation Q4 2025"
+      ],
+      "validation": "Cross-check multiple sources for readout timing confirmation"
+    },
+    "output_format": {
+      "structure": "JSON array of objects",
+      "fields": ["company", "ticker"],
+      "sorting": "Alphabetical by company name"
+    }
+  }
+}
