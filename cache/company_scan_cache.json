@@ -1,0 +1,352 @@
+{
+  "entries": {
+    "ACTU": {
+      "company_name": "Actuate Therapeutics",
+      "status": "missing"
+    },
+    "ADVM": {
+      "company_name": "Adverum Biotechnologies",
+      "status": "missing"
+    },
+    "ALEC": {
+      "company_name": "Alector",
+      "status": "missing"
+    },
+    "ALMS": {
+      "announcement_date": "2026-01-15T00:00:00+00:00",
+      "company_name": "Alumis",
+      "condition": "clinical trial readout",
+      "nct_id": "MANUAL-ALMS-20260115",
+      "phase": "N/A",
+      "sponsor": "Alumis",
+      "status": "found",
+      "title": "Alumis Phase 3 ONWARD Topline Data Expected in Early Q1 2026",
+      "url": "https://www.clinicaltrialsarena.com/news/alumis-enrolment-psoriasis/"
+    },
+    "ALT": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Altimmune",
+      "condition": "Major Data Announcement",
+      "nct_id": "MANUAL-ALT-20251231",
+      "phase": "N/A",
+      "sponsor": "Altimmune",
+      "status": "found",
+      "title": "Altimmune to Announce 48-week Data from Phase 2b IMPACT Trial of Pemvidutide in MASH Before Year End 2025",
+      "url": "https://www.globenewswire.com/news-release/2025/11/06/3182413/0/en/Altimmune-Announces-Third-Quarter-2025-Financial-Results-and-Business-Updates.html"
+    },
+    "ANAB": {
+      "company_name": "AnaptysBio",
+      "status": "missing"
+    },
+    "ANNX": {
+      "company_name": "Annexon",
+      "status": "missing"
+    },
+    "ANVS": {
+      "company_name": "Annovis Bio",
+      "status": "missing"
+    },
+    "ASMB": {
+      "company_name": "Assembly Biosciences",
+      "status": "missing"
+    },
+    "BCDA": {
+      "company_name": "BioCardia",
+      "status": "missing"
+    },
+    "BDTX": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Black Diamond Therapeutics",
+      "condition": "Clinical Trial Readout",
+      "nct_id": "MANUAL-BDTX-20251231",
+      "phase": "N/A",
+      "sponsor": "Black Diamond Therapeutics",
+      "status": "found",
+      "title": "Black Diamond Therapeutics to Announce Silevertinib Phase 2 ORR and Preliminary Duration Data in Q4 2025",
+      "url": "https://www.quiverquant.com/news/Black+Diamond+Therapeutics+Completes+Enrollment+in+Phase+2+Trial+of+Silevertinib+for+Non-Classical+EGFRm+NSCLC"
+    },
+    "BNTC": {
+      "company_name": "Benitec Biopharma",
+      "status": "missing"
+    },
+    "CADL": {
+      "company_name": "Candel Therapeutics",
+      "status": "missing"
+    },
+    "CAMP": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "CAMP4 Therapeutics",
+      "condition": "Clinical Trial Data Readout",
+      "nct_id": "MANUAL-CAMP-20251231",
+      "phase": "N/A",
+      "sponsor": "CAMP4 Therapeutics",
+      "status": "found",
+      "title": "CAMP4 Therapeutics to Report Phase 1 CMP-CPS-001 Safety and Pharmacokinetic Data in Q4 2025",
+      "url": "https://www.nasdaq.com/articles/camp4-therapeutics-provides-corporate-update-and-reports-first-quarter-2025-financial"
+    },
+    "CCCC": {
+      "company_name": "C4 Therapeutics",
+      "status": "missing"
+    },
+    "CELC": {
+      "company_name": "Celcuity",
+      "status": "missing"
+    },
+    "CMPX": {
+      "company_name": "Compass Therapeutics",
+      "status": "missing"
+    },
+    "COGT": {
+      "company_name": "Cogent Biosciences",
+      "status": "missing"
+    },
+    "CRBP": {
+      "company_name": "Corbus Pharmaceuticals",
+      "status": "missing"
+    },
+    "CRVO": {
+      "company_name": "CervoMed",
+      "status": "missing"
+    },
+    "DBVT": {
+      "company_name": "DBV Technologies",
+      "status": "missing"
+    },
+    "ELEV": {
+      "company_name": "Elevation Oncology",
+      "status": "missing"
+    },
+    "ELTX": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Elicio Therapeutics",
+      "condition": "clinical trial readout",
+      "nct_id": "MANUAL-ELTX-20251231",
+      "phase": "N/A",
+      "sponsor": "Elicio Therapeutics",
+      "status": "found",
+      "title": "Final Disease-Free Survival (DFS) Analysis of Phase 2 AMPLIFY-7P Trial in mKRAS Pancreatic Cancer",
+      "url": "https://elicio.com/press_releases/elicio-therapeutics-announces-positive-recommendation-by-idmc-to-continue-eli-002-7p-randomized-phase-2-study-in-pancreatic-cancer-without-modifications-to-final-analysis/"
+    },
+    "EYPT": {
+      "company_name": "EyePoint Pharmaceuticals",
+      "status": "missing"
+    },
+    "FGEN": {
+      "company_name": "FibroGen",
+      "status": "missing"
+    },
+    "GOSS": {
+      "announcement_date": "2026-02-01T00:00:00+00:00",
+      "company_name": "Gossamer Bio",
+      "condition": "Clinical Trial Readout",
+      "nct_id": "MANUAL-GOSS-20260201",
+      "phase": "N/A",
+      "sponsor": "Gossamer Bio",
+      "status": "found",
+      "title": "Gossamer Bio to Announce Topline Phase 3 PROSERA Results in PAH",
+      "url": "https://www.businesswire.com/news/home/20250515490367/en/Gossamer-Bio-Announces-First-Quarter-2025-Financial-Results-and-Provides-Business-Update-Including-Closure-of-New-Patient-Screening-in-Phase-3-PROSERA-Study"
+    },
+    "HOWL": {
+      "announcement_date": "2025-12-15T00:00:00+00:00",
+      "company_name": "Werewolf Therapeutics",
+      "condition": "Clinical Trial Data Announcement",
+      "nct_id": "MANUAL-HOWL-20251215",
+      "phase": "N/A",
+      "sponsor": "Werewolf Therapeutics",
+      "status": "found",
+      "title": "WTX-124 Phase 1/1b Clinical Trial Preliminary Data Readout (Monotherapy and Combination Arms)",
+      "url": "https://www.stocktitan.net/news/HOWL/werewolf-therapeutics-receives-fast-track-designation-from-the-u-s-pdbw4y9dq40n.html"
+    },
+    "HURA": {
+      "company_name": "TuHURA Biosciences",
+      "status": "missing"
+    },
+    "IMUX": {
+      "company_name": "Immunic",
+      "status": "missing"
+    },
+    "INBX": {
+      "company_name": "Inhibrx Biosciences",
+      "status": "missing"
+    },
+    "IOBT": {
+      "company_name": "IO Biotech",
+      "status": "missing"
+    },
+    "KROS": {
+      "company_name": "Keros Therapeutics",
+      "status": "missing"
+    },
+    "LSTA": {
+      "company_name": "Lisata Therapeutics",
+      "status": "missing"
+    },
+    "MBRX": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Moleculin Biotech",
+      "condition": "clinical trial readout",
+      "nct_id": "MANUAL-MBRX-20251231",
+      "phase": "N/A",
+      "sponsor": "Moleculin Biotech",
+      "status": "found",
+      "title": "Moleculin Biotech to Report Unblinded Efficacy/Safety Data (n=45) from MIRACLE Phase 3 AML Trial",
+      "url": "https://moleculin.com/moleculin-reports-second-quarter-2025-financial-results-and-highlights/"
+    },
+    "MNMD": {
+      "company_name": "MindMed",
+      "status": "missing"
+    },
+    "MOLN": {
+      "announcement_date": "2025-12-07T00:00:00+00:00",
+      "company_name": "Molecular Partners",
+      "condition": "Major clinical data announcement",
+      "nct_id": "MANUAL-MOLN-20251207",
+      "phase": "N/A",
+      "sponsor": "Molecular Partners",
+      "status": "found",
+      "title": "Molecular Partners to present updated data from Phase 1/2a trial of MP0533 in AML at ASH Annual Meeting",
+      "url": "https://www.globenewswire.com/news-release/2025/11/03/3178839/0/en/molecular-partners-to-present-updated-data-from-phase-1-2a-trial-of-mp0533-in-aml-at-ash-annual-meeting.html"
+    },
+    "NKTR": {
+      "announcement_date": "2025-12-15T00:00:00+00:00",
+      "company_name": "Nektar Therapeutics",
+      "condition": "Clinical Trial Readout",
+      "nct_id": "MANUAL-NKTR-20251215",
+      "phase": "N/A",
+      "sponsor": "Nektar Therapeutics",
+      "status": "found",
+      "title": "Rezpegaldesleukin Phase 2b Alopecia Areata Data Readout",
+      "url": "https://www.prnewswire.com/news-releases/nektar-therapeutics-reports-second-quarter-2025-financial-results-302524745.html"
+    },
+    "OKYO": {
+      "company_name": "OKYO Pharma",
+      "status": "missing"
+    },
+    "OLMA": {
+      "announcement_date": "2025-12-12T00:00:00+00:00",
+      "company_name": "Olema Oncology",
+      "condition": "major data announcement",
+      "nct_id": "MANUAL-OLMA-20251212",
+      "phase": "N/A",
+      "sponsor": "Olema Oncology",
+      "status": "found",
+      "title": "Olema Oncology to Present Trial-in-Progress Poster for Phase 3 OPERA-02 Trial of Palazestrant Plus Ribociclib at SABCS 2025",
+      "url": "https://www.stocktitan.net/news/OLMA/olema-oncology-to-present-trial-in-progress-poster-for-phase-3-opera-yufs6872ouhx.html"
+    },
+    "PEPG": {
+      "company_name": "PepGen",
+      "status": "missing"
+    },
+    "PRQR": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "ProQR Therapeutics",
+      "condition": "Clinical Trial Data Announcement",
+      "nct_id": "MANUAL-PRQR-20251231",
+      "phase": "N/A",
+      "sponsor": "ProQR Therapeutics",
+      "status": "found",
+      "title": "Initial Safety, Tolerability, and PK Data Readout for AX-0810 Phase 1 Trial",
+      "url": "https://www.globenewswire.com/news-release/2025/11/06/3182354/33039/en/ProQR-Announces-Third-Quarter-2025-Operating-and-Financial-Results.html"
+    },
+    "PTN": {
+      "company_name": "Palatin Technologies",
+      "status": "missing"
+    },
+    "PVLA": {
+      "company_name": "Palvella Therapeutics",
+      "status": "missing"
+    },
+    "QNCX": {
+      "announcement_date": "2026-01-31T00:00:00+00:00",
+      "company_name": "Quince Therapeutics",
+      "condition": "Clinical Trial Readout",
+      "nct_id": "MANUAL-QNCX-20260131",
+      "phase": "N/A",
+      "sponsor": "Quince Therapeutics",
+      "status": "found",
+      "title": "Quince Therapeutics to Report Topline Results from Phase 3 NEAT Clinical Trial in Ataxia-Telangiectasia",
+      "url": "https://quincetx.com"
+    },
+    "RLYB": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Rallybio",
+      "condition": "Clinical Trial Readout",
+      "nct_id": "MANUAL-RLYB-20251231",
+      "phase": "N/A",
+      "sponsor": "Rallybio",
+      "status": "found",
+      "title": "Rallybio to Report Complete Data from RLYB116 Phase 1 Confirmatory PK/PD Study in Q4 2025",
+      "url": "https://www.businesswire.com/news/home/20250924016253/en/Rallybio-Completes-Dosing-of-First-Cohort-in-RLYB116-Phase-1-Confirmatory-PharmacokineticPharmacodynamic-Study"
+    },
+    "RPTX": {
+      "company_name": "Repare Therapeutics",
+      "status": "missing"
+    },
+    "RVPH": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Reviva Pharmaceuticals",
+      "condition": "Management-Guided Regulatory Milestone",
+      "nct_id": "MANUAL-RVPH-20251231",
+      "phase": "N/A",
+      "sponsor": "Reviva Pharmaceuticals",
+      "status": "found",
+      "title": "Reviva Pharmaceuticals to Hold FDA Meeting for Brilaroxazine NDA Pathway",
+      "url": "https://revivapharma.com/reviva-reports-second-quarter-2025-financial-results-and-recent-business-highlights/"
+    },
+    "RZLT": {
+      "announcement_date": "2025-12-31T00:00:00+00:00",
+      "company_name": "Rezolute",
+      "condition": "clinical trial readout",
+      "nct_id": "MANUAL-RZLT-20251231",
+      "phase": "N/A",
+      "sponsor": "Rezolute",
+      "status": "found",
+      "title": "Rezolute sunRIZE Phase 3 Topline Data Readout (Ersodetug in Congenital Hyperinsulinism)",
+      "url": "https://www.globenewswire.com/news-release/2025/09/02/3142555/0/en/Rezolute-Announces-Alignment-with-FDA-on-Streamlined-Design-for-Ongoing-Phase-3-Trial-of-Ersodetug-in-Tumor-Hyperinsulinism.html"
+    },
+    "SKYE": {
+      "company_name": "Skye Bioscience",
+      "status": "missing"
+    },
+    "TERN": {
+      "announcement_date": "2025-12-08T00:00:00+00:00",
+      "company_name": "Terns Pharmaceuticals",
+      "condition": "Major clinical data announcement",
+      "nct_id": "MANUAL-TERN-20251208",
+      "phase": "N/A",
+      "sponsor": "Terns Pharmaceuticals",
+      "status": "found",
+      "title": "Terns Pharmaceuticals to Present Updated Phase 1 CARDINAL Data for TERN-701 in CML at ASH 2025",
+      "url": "https://www.globenewswire.com/news-release/2025/11/03/3179399/0/en/terns-announces-abstract-with-positive-clinical-data-for-tern-701-in-relapsed-refractory-cml-selected-for-oral-presentation-at-67th-ash-annual-meeting.html"
+    },
+    "TLSA": {
+      "company_name": "Tiziana Life Sciences",
+      "status": "missing"
+    },
+    "TNYA": {
+      "announcement_date": "2025-11-08T00:00:00+00:00",
+      "company_name": "Tenaya Therapeutics",
+      "condition": "Clinical Trial Data Announcement",
+      "nct_id": "MANUAL-TNYA-20251108",
+      "phase": "N/A",
+      "sponsor": "Tenaya Therapeutics",
+      "status": "found",
+      "title": "Tenaya Therapeutics to Present Interim Clinical Data for TN-201 at AHA Scientific Sessions",
+      "url": "https://www.stocktitan.net/news/TNYA/tenaya-therapeutics-announces-new-clinical-data-for-tn-201-gene-5z3g1jxeelpt.html"
+    },
+    "VRDN": {
+      "company_name": "Viridian Therapeutics",
+      "status": "missing"
+    },
+    "WVE": {
+      "company_name": "Wave Life Sciences",
+      "status": "missing"
+    },
+    "ZNTL": {
+      "company_name": "Zentalis Pharmaceuticals",
+      "status": "missing"
+    }
+  },
+  "generated_at": "2025-11-07T08:23:40.521647+00:00",
+  "lookahead_days": 90
+}
